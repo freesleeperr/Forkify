@@ -15,8 +15,10 @@
     "url": "^0.11.0"
   },
   "dependencies": {
-    "core-js": "^3.25.1",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.25.2",
     "fractional": "^1.0.0",
+    "install": "^0.13.0",
     "regenerator-runtime": "^0.13.9"
   }
 }
