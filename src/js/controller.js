@@ -10,7 +10,6 @@ import resultView from './views/resultView.js';
 import bookmarksView from './views/bookmarksView.js';
 import paginationView from './views/paginationView.js';
 import addRecipeView from './views/addRecipeView.js';
-import { __esModule } from 'start';
 import { MODAL_CLOSE_SEC } from './config.js';
 // const timeout = function (s) {
 //   return new Promise(function (_, reject) {
@@ -114,7 +113,7 @@ const controlAddRecipe = async function (newRecipe) {
     // Render bookmark view
     bookmarksView.render(model.state.bookmarks);
 
-    window.history.pushState(null , '', `#${model.state.recipe.id}`);
+    window.history.pushState(null, '', `#${model.state.recipe.id}`);
     setTimeout(function () {
       addRecipeView.toggleWindow();
     }, MODAL_CLOSE_SEC * 1000);
