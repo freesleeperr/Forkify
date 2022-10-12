@@ -1,0 +1,3 @@
+# Forkify
+## A project to creat a cookbook website
+## Using tech： AJAX，MVC，ES6，fetch,DOM manipulation...
